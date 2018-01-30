@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <EditTextPreference
+        android:title="@string/min_news_articles_title"
+        android:defaultValue="@string/min_news_articles_default_value"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:key="@string/min_news_articles_key"/>
+
+    <ListPreference
+        android:title="@string/category_title"
+        android:key="@string/category_key"
+        android:entries="@array/settings_categories_labels"
+        android:entryValues="@array/settings_categories_values"
+        android:defaultValue="@string/category_default_value"/>
+
+</PreferenceScreen>

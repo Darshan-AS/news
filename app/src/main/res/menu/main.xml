@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NewsActivity">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_search_black_24dp"
+        http:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="2"
+        http:showAsAction="ifRoom"/>
+
+</menu>

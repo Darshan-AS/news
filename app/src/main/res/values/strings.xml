@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NEWs</string>
+    <string name="top_stories">Top Stories</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="min_news_articles_title">Minimum News Articles</string>
+    <string name="min_news_articles_key">min_news_articles</string>
+    <string name="min_news_articles_default_value">20</string>
+
+    <string name="category_title">Category</string>
+    <string name="category_key">category</string>
+    <string name="category_default_value">@string/category_general_value</string>
+    
+    <string name="category_business_label">Business</string>
+    <string name="category_business_value">Business</string>
+
+    <string name="category_entertainment_label">Entertainment</string>
+    <string name="category_entertainment_value">Entertainment</string>
+
+    <string name="category_general_label">General</string>
+    <string name="category_general_value">General</string>
+
+    <string name="category_health_label">Health</string>
+    <string name="category_health_value">Health</string>
+
+    <string name="category_science_label">Science</string>
+    <string name="category_science_value">Science</string>
+
+    <string name="category_sports_label">Sports</string>
+    <string name="category_sports_value">Sports</string>
+
+    <string name="category_technology_label">Technology</string>
+    <string name="category_technology_value">Technology</string>
+
+    <string name="search_hint">Search News</string>
+    <string name="search">search</string>
+    <string name="no_news_available">No news available</string>
+    <string name="no_internet">Oops! No Internet</string>
+
+</resources>

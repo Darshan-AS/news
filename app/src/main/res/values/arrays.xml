@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_categories_labels">
+        <item>@string/category_business_label</item>
+        <item>@string/category_entertainment_label</item>
+        <item>@string/category_general_label</item>
+        <item>@string/category_health_label</item>
+        <item>@string/category_science_label</item>
+        <item>@string/category_sports_label</item>
+        <item>@string/category_technology_label</item>
+    </string-array>
+
+    <string-array name="settings_categories_values">
+        <item>@string/category_business_value</item>
+        <item>@string/category_entertainment_value</item>
+        <item>@string/category_general_value</item>
+        <item>@string/category_health_value</item>
+        <item>@string/category_science_value</item>
+        <item>@string/category_sports_value</item>
+        <item>@string/category_technology_value</item>
+    </string-array>
+
+</resources>
